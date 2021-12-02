@@ -1,0 +1,254 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	/* position: relative; */
+	width: 1440px;
+	height: 1832px;
+}
+.corner {
+	position: absolute;
+	width: 312px;
+	height: 468px;
+	left: 1128px;
+	top: -40px;
+}
+.bg {
+	position: absolute;
+	width: 1613px;
+	height: 1758px;
+	left: -146px;
+	top: -112px;
+
+	background-image: url(./assets/bg-main-desktop.png);
+}
+.container {
+	position: relative;
+	top: 61.99px;
+	max-width: 1110px;
+	margin: auto;
+}
+.header-logo {
+	position: absolute;
+	width: 146.09px;
+	height: 32px;
+	left: 166.15px;
+	top: 61.99px;
+}
+.hero-header {
+	width: 1015px;
+	height: 176px;
+	margin-top: 127.01px;
+	margin-bottom: 40px;
+
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 88px;
+	line-height: 88px;
+	/* or 100% */
+
+	letter-spacing: -1px;
+
+	color: #191826;
+}
+.hero-para {
+	width: 825px;
+	height: 102px;
+
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 34px;
+	/* or 170% */
+
+	color: #191826;
+}
+.black-bg {
+	position: absolute;
+	width: 1110px;
+	height: 600px;
+	/* left: 165px; */
+	top: 860px;
+
+	background: #191826;
+	border-radius: 12px;
+}
+.illustration {
+	position: absolute;
+	width: 312px;
+	height: 468px;
+	left: 336px;
+	top: 820px;
+}
+.phone {
+	position: absolute;
+	width: 312px;
+	height: 642px;
+	left: 102px;
+	top: calc(647px - 61.99px);
+	z-index: 9;
+}
+.card {
+	position: absolute;
+	width: 446px;
+	height: 625px;
+	left: 569px;
+	top: 950px;
+
+	background: #fa7453;
+	border-radius: 12px;
+	color: #fcfaf9;
+
+	display: flex;
+	flex-direction: column;
+	padding: 58px 59px 48px 54px;
+	margin-bottom: 87px;
+}
+
+.card > h2 {
+	margin-bottom: 22px;
+
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 52px;
+	/* identical to box height, or 130% */
+}
+.card > p {
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 34px;
+	/* or 170% */
+
+	color: #fcfaf9;
+
+	margin-bottom: 39px;
+}
+
+.card span {
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 65px;
+	line-height: 52px;
+	/* identical to box height, or 80% */
+
+	margin-bottom: 46px;
+}
+.card h1 {
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 65px;
+	line-height: 52px;
+	/* identical to box height, or 80% */
+}
+.amount p {
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 32px;
+	/* identical to box height, or 160% */
+
+	letter-spacing: -0.2px;
+
+	color: #fcfaf9;
+}
+
+.amount {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	margin-bottom: 46px;
+	width: 165px;
+	height: 52px;
+}
+button {
+	width: 333px;
+	height: 61px;
+	border-radius: 12px;
+	border: none;
+
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 32px;
+	/* identical to box height, or 178% */
+
+	text-align: center;
+	letter-spacing: -0.18px;
+
+	cursor: pointer;
+}
+
+.apple-btn {
+	background: #191826;
+	margin-bottom: 16px;
+
+	color: #fcfaf9;
+}
+.apple-btn:hover {
+	background: #66e2dc;
+}
+.android-btn:hover {
+	background: #ffb964;
+}
+button img {
+	margin-right: 7.92px;
+}
+
+footer {
+	position: absolute;
+	top: calc(1662px);
+	/* margin-left: 14px;
+	margin-right: 14px; */
+
+	display: flex;
+}
+
+footer > img {
+	width: 146.09px;
+	height: 32px;
+	margin-right: 137.76px;
+}
+
+footer > p {
+	width: 366px;
+	height: 79px;
+	margin-right: 359px;
+
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	/* or 162% */
+
+	color: #191826;
+}
+
+footer > div {
+	width: 100px;
+	height: 20px;
+
+	display: flex;
+	justify-content: space-between;
+}
+.email {
+	font-weight: 900;
+}
+.icon {
+	cursor: pointer;
+}
+.icon:hover path {
+	fill: #fa7453;
+}
