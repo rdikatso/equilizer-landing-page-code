@@ -3,80 +3,71 @@
 	margin: 0;
 	padding: 0;
 }
-
 body {
-	width: 768px;
-	height: 1781px;
-
-	background: #fcfaf9;
+	width: 375px;
+	height: 1945px;
 }
-
 .corner {
-	position: absolute;
-	width: 266.67px;
-	height: 400px;
-	left: 537px;
-	top: -32px;
+	display: none;
 }
-
 .bg {
 	position: absolute;
-	width: 983px;
-	height: 808px;
-	left: -254px;
-	top: -112px;
+	width: 281.4px;
+	height: 480px;
+	left: 159px;
+	top: -104px;
 
-	background: url(./assets/bg-main-tablet.png);
+	background-image: url(./assets/bg-main-mobile.png);
+}
+.container {
+	position: relative;
+	top: 39.99px;
+	max-width: 375px;
+	margin: auto;
 }
 .header-logo {
 	position: absolute;
 	width: 146.09px;
 	height: 32px;
-	left: 39.15px;
-	top: 61.99px;
-}
-.container {
-	position: relative;
-	top: 61.99px;
-	max-width: 696px;
-	margin: auto;
+	left: 24.15px;
+	top: 39.99px;
 }
 .hero-header {
-	width: 520px;
-	height: 192px;
-	margin-top: calc(189px - 61.99px);
-	margin-bottom: 28px;
+	width: 327px;
+	height: 144px;
+	margin: 96.01px 25px 20px 24px;
 
 	font-family: IBM Plex Sans;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 64px;
-	line-height: 64px;
+	font-size: 40px;
+	line-height: 48px;
 	/* or 100% */
 
-	letter-spacing: -0.727273px;
+	letter-spacing: -0.454545px;
 
 	color: #191826;
 }
 .hero-para {
-	width: 514px;
-	height: 112px;
+	width: 327px;
+	height: 156px;
+	margin: 24px;
 
 	font-family: IBM Plex Sans;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
-	line-height: 328x;
+	font-size: 16px;
+	line-height: 26px;
 	/* or 170% */
 
 	color: #191826;
 }
 .black-bg {
 	position: absolute;
-	width: 696px;
+	width: 375px;
 	height: 600px;
 	/* left: 165px; */
-	top: 770px;
+	top: 622px;
 
 	background: #191826;
 	border-radius: 12px;
@@ -85,23 +76,23 @@ body {
 	position: absolute;
 	width: 280px;
 	height: 420px;
-	left: 262px;
-	top: 739px;
+	left: 48px;
+	top: 622px;
 }
 .phone {
 	position: absolute;
-	width: 270.021px;
-	height: 556px;
-	left: 97px;
-	top: calc(632px - 61.99px);
-	z-index: 4;
+	width: 208.97px;
+	height: 430px;
+	left: 80.67px;
+	top: calc(524px - 39.99px);
+	z-index: 9;
 }
 .card {
 	position: absolute;
-	width: 399px;
+	width: 375px;
 	height: 546px;
-	left: 272px;
-	top: 920px;
+	left: 0px;
+	top: 1002px;
 
 	background: #fa7453;
 	border-radius: 12px;
@@ -109,12 +100,11 @@ body {
 
 	display: flex;
 	flex-direction: column;
-	padding: 48px 49px 48px 48px;
-	margin-bottom: 87px;
-	z-index: 9;
+	padding: 48px 37px 48px 36px;
+	margin-bottom: 64px;
 }
 .card > h2 {
-	margin-bottom: 12px;
+	margin-bottom: 22px;
 
 	font-family: IBM Plex Sans;
 	font-style: normal;
@@ -133,9 +123,8 @@ body {
 
 	color: #fcfaf9;
 
-	margin-bottom: 39px;
+	margin-bottom: 36px;
 }
-
 .card h1 {
 	font-family: IBM Plex Sans;
 	font-style: normal;
@@ -165,7 +154,6 @@ body {
 	width: 165px;
 	height: 52px;
 }
-
 button {
 	width: 296px;
 	height: 61px;
@@ -184,24 +172,11 @@ button {
 
 	cursor: pointer;
 }
-.apple-btn {
-	background: #191826;
-	margin-bottom: 16px;
-
-	color: #fcfaf9;
-}
-.apple-btn:hover {
-	background: #66e2dc;
-}
-.android-btn:hover {
-	background: #ffb964;
-}
-button img {
-	margin-right: 7.92px;
-}
 footer {
 	position: absolute;
-	top: 1553px;
+	top: 1612px;
+	margin-left: 24px;
+	margin-right: 24px;
 	/* margin-left: 14px;
 	margin-right: 14px; */
 
@@ -211,13 +186,13 @@ footer {
 footer > img {
 	width: 146.09px;
 	height: 32px;
-	margin-right: 548.76px;
 	margin-bottom: 32.01px;
 }
+
 footer > p {
-	width: 366px;
-	height: 79px;
-	margin-right: 359px;
+	width: 327px;
+	height: 105px;
+	margin-bottom: 64px;
 
 	font-family: IBM Plex Sans;
 	font-style: normal;
@@ -230,11 +205,8 @@ footer > p {
 }
 
 footer > div {
-	position: absolute;
 	width: 100px;
 	height: 20px;
-	left: 596px;
-	top: 94px;
 
 	display: flex;
 	justify-content: space-between;
